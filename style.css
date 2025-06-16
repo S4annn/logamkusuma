@@ -1236,7 +1236,15 @@
   .fade-in-up {
     animation: fadeInUp 0.6s ease forwards;
   }
-  
+  @media (min-width: 1024px) and (max-width: 1439px) {
+   
+    .hero-title{
+      margin-top: 120px;
+    }
+  }
+  .hero-buttons{
+    margin-bottom: 50px;
+  }
   /* Responsive Design */
   @media (max-width: 768px) {
 
@@ -1413,4 +1421,5 @@
       transition-duration: 0.01ms !important;
     }
   }
+  
   
